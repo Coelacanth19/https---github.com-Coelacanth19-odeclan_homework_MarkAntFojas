@@ -1,0 +1,8 @@
+"0","tibble(alphabet = LETTERS,"
+"0","       numbers = 1:26) %>% "
+"0","  filter(LETTERS != c(""A"", ""B"", ""C""))"
+"2","Warning in LETTERS != c(""A"", ""B"", ""C"") :"
+"2","
+ "
+"2"," longer object length is not a multiple of shorter object length
+"

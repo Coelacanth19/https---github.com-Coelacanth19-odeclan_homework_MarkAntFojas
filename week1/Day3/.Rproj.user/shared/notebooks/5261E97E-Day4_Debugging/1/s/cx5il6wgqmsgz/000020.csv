@@ -1,0 +1,6 @@
+"0","scent_ratings <- scent_ratings %>% janitor::clean_names()"
+"0","scent_ratings %>% "
+"0","  select(scent, rating) %>% "
+"0","  drop_na() %>% "
+"0","  group_by(scent) %>% "
+"0","  summarise(mean_rating = mean(rating))"
